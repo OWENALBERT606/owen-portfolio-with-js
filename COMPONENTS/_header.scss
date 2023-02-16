@@ -1,0 +1,18 @@
+.header-sec{
+    text-decoration: none;
+    color: $white-color;
+    background-color:white;
+    height: 100px;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    .navigation{
+        background-color: red;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-between;
+        color: $white-color;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5;
+  text-decoration: none;
+}
+
+.header-sec {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  height: 50px;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header-sec .nav {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
