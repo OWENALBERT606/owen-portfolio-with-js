@@ -1,9 +1,16 @@
+
+html{
+    font-size: 62.5%;
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 2rem;
+    font-family: $default-font;
 
 }
+
 a{
     text-decoration: none;
     // color: black;

@@ -6,9 +6,10 @@ header{
     padding: 1rem 2rem;
     a{
         color: $white-color;
+        transition: all .5s ease;
         &:hover{
             color: $secondary-dark-color;
-            transition: all .5sec ease;
+           
 
         }
     }
