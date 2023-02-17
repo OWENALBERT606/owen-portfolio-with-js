@@ -114,4 +114,21 @@ header .git-links .github {
   color: #fb923c;
   background-color: white;
   transition: all 0.5s ease;
+}
+
+.about-section {
+  width: 100vw;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+.about-section .about-me {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.about-section .my-experience {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */

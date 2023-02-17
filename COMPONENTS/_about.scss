@@ -1,0 +1,16 @@
+.about-section{
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    .about-me{
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .my-experience{
+        width: 50%;
+    }
+}
