@@ -2,20 +2,29 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 62.5;
+}
+
+a {
   text-decoration: none;
 }
 
-.header-sec {
-  text-decoration: none;
-  color: white;
+header {
   background-color: black;
-  height: 50px;
-  padding: 1rem 1rem;
+  color: white;
   display: flex;
   justify-content: space-between;
+  padding: 1rem 2rem;
 }
-.header-sec .nav {
+header a {
   color: white;
-  text-decoration: none;
+}
+header a:hover {
+  color: #ea580c;
+  transition: all 0.5sec ease;
+}
+header .navigation {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

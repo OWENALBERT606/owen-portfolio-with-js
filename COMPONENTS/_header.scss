@@ -1,21 +1,22 @@
-.header-sec{
-    text-decoration: none;
+header{
+    background-color: $black-color;
     color: $white-color;
-    background-color:white;
-    height: 100px;
-    padding: 1rem 1rem;
     display: flex;
     justify-content: space-between;
-    .navigation{
-        background-color: red;
-        display: flex;
-        align-items: center;
-        gap: 2rem;
-        justify-content: space-between;
+    padding: 1rem 2rem;
+    a{
         color: $white-color;
-        text-decoration: none;
-        a{
-            color: $white-color;
+        &:hover{
+            color: $secondary-dark-color;
+            transition: all .5sec ease;
+
         }
     }
+    .navigation{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+    }
+
 }
