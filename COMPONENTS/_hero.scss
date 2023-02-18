@@ -5,6 +5,8 @@
     background-color: $primary-color-dark;
     @media (max-width:480px){
         flex-direction: column;
+        margin-bottom: 5rem;
+
     }
     .hero-left{
         width: 50%;
@@ -14,7 +16,7 @@
             align-items: center;
             background-color:$secondary-dark-color;
             width: 100%;
-            padding-top: 2rem;
+           
         }
         img{
             width: 300px;

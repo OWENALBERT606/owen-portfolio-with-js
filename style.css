@@ -96,6 +96,7 @@ header .git-links .github {
 @media (max-width: 480px) {
   .hero {
     flex-direction: column;
+    margin-bottom: 5rem;
   }
 }
 .hero .hero-left {
@@ -108,7 +109,6 @@ header .git-links .github {
     align-items: center;
     background-color: #ea580c;
     width: 100%;
-    padding-top: 2rem;
   }
 }
 .hero .hero-left img {
@@ -197,6 +197,7 @@ header .git-links .github {
   .about-section .about-me {
     padding: 0 0.5rem;
     width: 100%;
+    margin-bottom: 5rem;
   }
 }
 .about-section .about-me h1 {
