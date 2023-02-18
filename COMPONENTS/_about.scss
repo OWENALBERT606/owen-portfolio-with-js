@@ -6,12 +6,24 @@
     justify-content: center;
     padding: 4rem;
     color: $white-color;
+    @media (max-width:480px){
+        flex-direction: column;
+        padding: 2rem;
+    }
     .about-me{
         padding: 0 5rem;
         width: 50%;
         display: flex;
         justify-content: start;
         flex-direction: column;
+        @media (max-width:480px){
+            padding: 0 .5rem;
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 2rem;
+        }
     }
     .my-experience{
         padding: 0 5rem;

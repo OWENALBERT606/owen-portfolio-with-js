@@ -1,6 +1,6 @@
 .hero{
     width: 100vw;
-    margin-top: 4rem;
+    margin-top: 5rem;
     display: flex;
     background-color: $primary-color-dark;
     @media (max-width:480px){
@@ -14,6 +14,7 @@
             align-items: center;
             background-color:$secondary-dark-color;
             width: 100%;
+            padding-top: 2rem;
         }
         img{
             width: 300px;
@@ -31,6 +32,10 @@
         align-items: center;
         flex-direction: column;
         color: $secondary-dark-color;
+        @media (max-width:480px){
+            padding: 1rem 0;
+            width: 100%;
+        }
         span{
             color:$white-color;
         }

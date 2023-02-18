@@ -50,7 +50,7 @@ header {
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -89,7 +89,7 @@ header .git-links .github {
 
 .hero {
   width: 100vw;
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: flex;
   background-color: #071336;
 }
@@ -108,6 +108,7 @@ header .git-links .github {
     align-items: center;
     background-color: #ea580c;
     width: 100%;
+    padding-top: 2rem;
   }
 }
 .hero .hero-left img {
@@ -128,6 +129,12 @@ header .git-links .github {
   align-items: center;
   flex-direction: column;
   color: #ea580c;
+}
+@media (max-width: 480px) {
+  .hero .hero-right {
+    padding: 1rem 0;
+    width: 100%;
+  }
 }
 .hero .hero-right span {
   color: white;
@@ -173,12 +180,28 @@ header .git-links .github {
   padding: 4rem;
   color: white;
 }
+@media (max-width: 480px) {
+  .about-section {
+    flex-direction: column;
+    padding: 2rem;
+  }
+}
 .about-section .about-me {
   padding: 0 5rem;
   width: 50%;
   display: flex;
   justify-content: start;
   flex-direction: column;
+}
+@media (max-width: 480px) {
+  .about-section .about-me {
+    padding: 0 0.5rem;
+    width: 100%;
+  }
+}
+.about-section .about-me h1 {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 .about-section .my-experience {
   padding: 0 5rem;
