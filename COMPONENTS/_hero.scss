@@ -6,10 +6,53 @@
         width: 50%;
         display: flex;
         justify-content: center;
+        img{
+            width: 300px;
+        }
     }
     .hero-right{
         width: 50%;
-        background-color: red;
+        background-color:$primary-color-dark;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: $secondary-dark-color;
+        span{
+            color:$white-color;
+        }
+        h1{
+            font-size: xx-large;
+        }
+        h2{
+            margin: 1rem 1rem;
+        }
+        button{
+            background-color: $secondary-dark-color;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: .5rem 1rem;
+            margin-top: 2rem;
+            font-weight: 500;
+            padding: 1rem 2rem;
+            &:hover{
+            background-color: $white-color;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: .5rem 1rem;
+            margin-top: 2rem;
+            font-weight: 500;
+            }
+            a{
+                color:$white-color;
+                &:hover{
+                    color:$light-sec-color;
+                    background-color: $white-color;
+                    transition: all .5s ease;
+                }
+            }
+        }
+
 
     }
 }

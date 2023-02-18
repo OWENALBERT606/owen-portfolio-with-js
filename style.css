@@ -15,6 +15,21 @@ a {
   text-decoration: none;
 }
 
+.defalut-btn {
+  padding: 0.5rem 1rem;
+  margin: 2rem;
+}
+.defalut-btn:hover {
+  color: #fb923c;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+.defalut-btn:hover:hover {
+  color: #fb923c;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
 header {
   background-color: black;
   color: white;
@@ -24,6 +39,7 @@ header {
 }
 header .bx-menu {
   width: 4rem;
+  display: none;
 }
 header a {
   color: white;
@@ -38,18 +54,64 @@ header .navigation {
   gap: 2rem;
   align-items: center;
 }
+header .git-links .github {
+  background-color: #ea580c;
+  border-radius: 5px;
+}
 
 .hero {
   width: 100vw;
   display: flex;
-  background-color: #182e6b;
+  background-color: #071336;
 }
 .hero .hero-left {
   width: 50%;
   display: flex;
   justify-content: center;
 }
+.hero .hero-left img {
+  width: 300px;
+}
 .hero .hero-right {
   width: 50%;
-  background-color: red;
+  background-color: #071336;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ea580c;
+}
+.hero .hero-right span {
+  color: white;
+}
+.hero .hero-right h1 {
+  font-size: xx-large;
+}
+.hero .hero-right h2 {
+  margin: 1rem 1rem;
+}
+.hero .hero-right button {
+  background-color: #ea580c;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  padding: 1rem 2rem;
+}
+.hero .hero-right button:hover {
+  background-color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+.hero .hero-right button a {
+  color: white;
+}
+.hero .hero-right button a:hover {
+  color: #fb923c;
+  background-color: white;
+  transition: all 0.5s ease;
 }/*# sourceMappingURL=style.css.map */
