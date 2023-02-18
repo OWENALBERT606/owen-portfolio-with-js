@@ -1,6 +1,9 @@
 
 html{
     font-size: 62.5%;
+    @media  (max-width:768){
+        font-size: 58%;
+    }
 }
 *{
     padding: 0;
@@ -33,4 +36,9 @@ a{
 
 .sub-headings{
     color: $secondary-dark-color;
+}
+.non-displayed{
+    @media (max-width:768px){
+        display: none;
+    }
 }

@@ -3,12 +3,24 @@
     margin-top: 4rem;
     display: flex;
     background-color: $primary-color-dark;
+    @media (max-width:480px){
+        flex-direction: column;
+    }
     .hero-left{
         width: 50%;
         display: flex;
         justify-content: center;
+        @media (max-width:480px){
+            align-items: center;
+            background-color:$secondary-dark-color;
+            width: 100%;
+        }
         img{
             width: 300px;
+            @media (max-width:480px){
+                width: 250px;
+                object-fit: cover;
+            }
         }
     }
     .hero-right{

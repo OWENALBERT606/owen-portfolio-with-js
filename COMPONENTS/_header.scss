@@ -10,6 +10,9 @@ header{
     .bx-menu{
         width: 4rem;
         display: none;
+        @media (max-width:480px){
+            display: block;
+        }
     }
     a{
         color: $white-color;
@@ -25,6 +28,9 @@ header{
         justify-content: center;
         gap: 2rem;
         align-items: center;
+        @media (max-width:480px){
+            display: none;
+        }
     }
     .git-links{
         .github{

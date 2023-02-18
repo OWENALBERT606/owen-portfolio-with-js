@@ -2,6 +2,11 @@
 html {
   font-size: 62.5%;
 }
+@media (max-width: 768) {
+  html {
+    font-size: 58%;
+  }
+}
 
 * {
   padding: 0;
@@ -34,6 +39,12 @@ a {
   color: #ea580c;
 }
 
+@media (max-width: 768px) {
+  .non-displayed {
+    display: none;
+  }
+}
+
 header {
   background-color: black;
   color: white;
@@ -48,6 +59,11 @@ header .bx-menu {
   width: 4rem;
   display: none;
 }
+@media (max-width: 480px) {
+  header .bx-menu {
+    display: block;
+  }
+}
 header a {
   color: white;
   transition: all 0.5s ease;
@@ -61,6 +77,11 @@ header .navigation {
   gap: 2rem;
   align-items: center;
 }
+@media (max-width: 480px) {
+  header .navigation {
+    display: none;
+  }
+}
 header .git-links .github {
   background-color: #ea580c;
   border-radius: 5px;
@@ -72,13 +93,32 @@ header .git-links .github {
   display: flex;
   background-color: #071336;
 }
+@media (max-width: 480px) {
+  .hero {
+    flex-direction: column;
+  }
+}
 .hero .hero-left {
   width: 50%;
   display: flex;
   justify-content: center;
 }
+@media (max-width: 480px) {
+  .hero .hero-left {
+    align-items: center;
+    background-color: #ea580c;
+    width: 100%;
+  }
+}
 .hero .hero-left img {
   width: 300px;
+}
+@media (max-width: 480px) {
+  .hero .hero-left img {
+    width: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 .hero .hero-right {
   width: 50%;
@@ -127,7 +167,7 @@ header .git-links .github {
 .about-section {
   padding: 5rem 10rem;
   width: 100vw;
-  background-color: #1e40af;
+  background-color: black;
   display: flex;
   justify-content: center;
   padding: 4rem;
