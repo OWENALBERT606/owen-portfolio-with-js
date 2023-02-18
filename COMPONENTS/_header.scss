@@ -4,6 +4,9 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
+    .bx-menu{
+        width: 4rem;
+    }
     a{
         color: $white-color;
         transition: all .5s ease;

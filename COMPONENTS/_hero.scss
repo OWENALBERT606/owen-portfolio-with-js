@@ -1,0 +1,15 @@
+.hero{
+    width: 100vw;
+    display: flex;
+    background-color: $primary-color-dark;
+    .hero-left{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-right{
+        width: 50%;
+        background-color: red;
+
+    }
+}
