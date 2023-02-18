@@ -4,7 +4,8 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-    // position: fixed;
+    position: fixed;
+    width: 100vw;
     top: 0;
     .bx-menu{
         width: 4rem;

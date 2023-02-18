@@ -1,16 +1,39 @@
 .about-section{
+    padding: 5rem 10rem;
     width: 100vw;
-    background-color: aqua;
+    background-image: linear-gradient($mid-primary-color,$primary-color-dark),img;
     display: flex;
     justify-content: center;
     padding: 4rem;
+    color: $white-color;
     .about-me{
+        padding: 0 5rem;
         width: 50%;
         display: flex;
         justify-content: start;
         flex-direction: column;
     }
     .my-experience{
+        padding: 0 5rem;
+        margin-left: 10rem;
+        padding: 1rem 2rem;
         width: 50%;
+        .years{
+            display: flex;
+            justify-content: start;
+            width: 100vw;
+            margin-top: 3rem;
+            .counter{
+                padding: 1rem;
+                font-weight: bolder;
+                margin-right: 5rem;
+                border-right: solid 2px orangered;
+                h1{
+                    color: $secondary-dark-color;
+                    font-size:3rem;
+                    margin-right: 3rem;
+                }
+            }
+        }
     }
 }
