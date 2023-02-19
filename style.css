@@ -55,6 +55,12 @@ header {
   width: 100vw;
   top: 0;
 }
+header .log a {
+  color: #ea580c;
+}
+header .log a:hover {
+  color: white;
+}
 header .bx-menu {
   width: 4rem;
   display: none;
@@ -158,7 +164,6 @@ header .git-links .github {
   background-color: white;
   text-decoration: none;
   border-radius: 5px;
-  padding: 0.5rem 1rem;
   margin-top: 2rem;
   font-weight: 500;
 }
@@ -226,4 +231,9 @@ header .git-links .github {
   color: #ea580c;
   font-size: 3rem;
   margin-right: 3rem;
+}
+
+.services-sec {
+  width: 100%;
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
