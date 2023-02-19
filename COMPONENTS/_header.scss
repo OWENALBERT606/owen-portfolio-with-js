@@ -38,6 +38,15 @@ header{
         align-items: center;
         @media (max-width:480px){
             display: none;
+            border-radius: 5px;
+            padding: .5rem;
+            display: flex;
+            position: fixed;
+            top:6.4rem;
+            left: 14rem;
+            flex-direction: column;
+            background-color: rgba($color: #645b5bbe, $alpha: .5);
+
         }
     }
     .git-links{

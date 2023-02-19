@@ -86,6 +86,14 @@ header .navigation {
 @media (max-width: 480px) {
   header .navigation {
     display: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    display: flex;
+    position: fixed;
+    top: 6.4rem;
+    left: 14rem;
+    flex-direction: column;
+    background-color: rgba(100, 91, 91, 0.5);
   }
 }
 header .git-links .github {
