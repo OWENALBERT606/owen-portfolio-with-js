@@ -88,7 +88,6 @@ header .navigation {
     display: none;
     border-radius: 5px;
     padding: 0.5rem;
-    display: flex;
     position: fixed;
     top: 6.4rem;
     left: 14rem;
