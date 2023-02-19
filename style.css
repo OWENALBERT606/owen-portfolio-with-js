@@ -245,9 +245,13 @@ header .git-links .github {
   width: 100%;
 }
 .services-sec .btm-services .service-one {
-  width: 30%;
-  background-color: yellow;
+  width: 25%;
+  background-color: #ea580c;
   border-radius: 1rem;
   margin: 2rem 2rem;
   padding: 2rem;
+}
+.services-sec .btm-services .service-one h2 {
+  text-align: center;
+  margin: 1rem;
 }/*# sourceMappingURL=style.css.map */
