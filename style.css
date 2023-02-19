@@ -55,6 +55,12 @@ header {
   width: 100vw;
   top: 0;
 }
+header .log a {
+  color: #ea580c;
+}
+header .log a:hover {
+  color: white;
+}
 header .bx-menu {
   width: 4rem;
   display: none;

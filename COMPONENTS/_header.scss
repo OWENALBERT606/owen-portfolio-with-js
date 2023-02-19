@@ -7,6 +7,14 @@ header{
     position: fixed;
     width: 100vw;
     top: 0;
+    .log{
+        a{
+            color: $secondary-dark-color;
+        &:hover{
+            color:$white-color;
+        }
+        }
+    }
     .bx-menu{
         width: 4rem;
         display: none;
