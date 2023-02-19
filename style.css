@@ -207,4 +207,25 @@ header .git-links .github {
   color: #ea580c;
   font-size: 3rem;
   margin-right: 3rem;
+}
+
+.services-sec {
+  width: 100vw;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-sec .top {
+  width: 100%;
+  background-color: green;
+}
+.services-sec .bottom {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+.services-sec .bottom .web-design {
+  width: 30%;
 }/*# sourceMappingURL=style.css.map */
