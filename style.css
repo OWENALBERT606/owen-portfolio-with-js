@@ -200,7 +200,7 @@ header .git-links .github {
 }
 @media (max-width: 480px) {
   .about-section .about-me {
-    padding: 0 0.5rem;
+    padding: 0 0.1rem;
     width: 100%;
     margin-bottom: 5rem;
   }
@@ -235,5 +235,19 @@ header .git-links .github {
 
 .services-sec {
   width: 100%;
-  background-color: red;
+}
+.services-sec .top-services {
+  background-color: blue;
+  width: 100%;
+}
+.services-sec .btm-services {
+  background-color: white;
+  width: 100%;
+}
+.services-sec .btm-services .service-one {
+  width: 30%;
+  background-color: yellow;
+  border-radius: 1rem;
+  margin: 2rem 2rem;
+  padding: 2rem;
 }/*# sourceMappingURL=style.css.map */
