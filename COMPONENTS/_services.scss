@@ -1,23 +1,4 @@
-
 .services-sec{
-    width: 100vw;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    // flex-direction: column;
-    .top{
-        width: 100%;
-        background-color: green;
-    }
-    .bottom{
-        width: 100%;
-        background-color: red;
-        display: flex;
-        flex-direction: column;
-        .web-design{
-            
-            width: 30%;
-        }
-    }
+    width: 100%;
+    background-color: red;
 }
