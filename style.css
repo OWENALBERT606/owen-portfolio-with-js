@@ -244,8 +244,11 @@ header .git-links .github {
   width: 100%;
 }
 .services-sec .top-services {
-  background-color: blue;
+  background-color: #071336;
   width: 100%;
+  color: white;
+  text-align: center;
+  padding: 1rem 0 0 0;
 }
 .services-sec .btm-services {
   background-color: #071336;

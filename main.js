@@ -2,5 +2,5 @@
 const menuBtn = document.querySelector("#menu");
 const nav = document.querySelector("navigation");
 menuBtn.addEventListener("click",function(){
-    nav.style.display ="flex"
+    nav.style.display ="flex";
 })

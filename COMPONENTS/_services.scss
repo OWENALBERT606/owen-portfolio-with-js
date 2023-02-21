@@ -1,8 +1,11 @@
 .services-sec{
     width: 100%;
     .top-services{
-        background-color: blue;
+        background-color:$primary-color-dark;
         width: 100%;
+        color: $white-color;
+        text-align: center;
+        padding: 1rem 0 0 0;
     }
     .btm-services{
         background-color:$primary-color-dark;
