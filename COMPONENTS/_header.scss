@@ -40,7 +40,6 @@ header{
             display: none;
             border-radius: 5px;
             padding: .5rem;
-            // display: flex;
             position: fixed;
             top:6.4rem;
             left: 14rem;
@@ -49,6 +48,10 @@ header{
 
         }
     }
+    .active{
+        display: flex;
+    }
+    
     .git-links{
         .github{
             background-color: $secondary-dark-color;

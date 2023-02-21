@@ -95,6 +95,9 @@ header .navigation {
     background-color: rgba(100, 91, 91, 0.5);
   }
 }
+header .active {
+  display: flex;
+}
 header .git-links .github {
   background-color: #ea580c;
   border-radius: 5px;
@@ -263,6 +266,11 @@ header .git-links .github {
   border-radius: 1rem;
   margin: 2rem 2rem;
   padding: 2rem;
+}
+@media (max-width: 480px) {
+  .services-sec .btm-services .service-one {
+    width: 100%;
+  }
 }
 .services-sec .btm-services .service-one h2 {
   text-align: center;
