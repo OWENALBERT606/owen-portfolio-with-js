@@ -5,26 +5,37 @@
         width: 100%;
         color: $white-color;
         text-align: center;
+        margin: 0;
         padding: 1rem 0 0 0;
+        @media (max-width:480px){
+            padding: 1rem;
+        }
     }
     .btm-services{
+        display: grid;
+        // gap: .5rem;
+        grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
         background-color:$primary-color-dark;
-        width: 100%;display: flex;
-        justify-content: center;
-        align-items: center;
+        // width: 100%;display: flex;
+        // justify-content: center;
+        // align-items: center;
+        @media (max-width:480px){
+            background-color: $primary-color-dark;
+        }
+
         .service-one{
-            width: 30%;
+            // width: 30%;
             background-color:$secondary-dark-color;
             border-radius: 1rem;
             margin: 2rem 2rem;
             padding: 2rem;
             @media (max-width:480px){
-                width:100%;
+                // width:100%;
 
             }
             h2{
                 text-align: center;
-                margin: 1rem;
+                // margin: 1rem;
                 
             }
         }

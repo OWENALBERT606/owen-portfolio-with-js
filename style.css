@@ -251,28 +251,30 @@ header .git-links .github {
   width: 100%;
   color: white;
   text-align: center;
+  margin: 0;
   padding: 1rem 0 0 0;
 }
+@media (max-width: 480px) {
+  .services-sec .top-services {
+    padding: 1rem;
+  }
+}
 .services-sec .btm-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   background-color: #071336;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+@media (max-width: 480px) {
+  .services-sec .btm-services {
+    background-color: #071336;
+  }
 }
 .services-sec .btm-services .service-one {
-  width: 30%;
   background-color: #ea580c;
   border-radius: 1rem;
   margin: 2rem 2rem;
   padding: 2rem;
 }
-@media (max-width: 480px) {
-  .services-sec .btm-services .service-one {
-    width: 100%;
-  }
-}
 .services-sec .btm-services .service-one h2 {
   text-align: center;
-  margin: 1rem;
 }/*# sourceMappingURL=style.css.map */
