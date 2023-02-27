@@ -108,6 +108,7 @@ header .git-links .github {
   margin-top: 5rem;
   display: flex;
   background-color: #071336;
+  position: relative;
 }
 @media (max-width: 480px) {
   .hero {
@@ -280,12 +281,14 @@ header .git-links .github {
 }
 
 .contact-card {
+  left: 25rem;
   width: 30%;
   background-color: #ea580c;
+  position: absolute;
 }
 .contact-card .card-header {
   width: 100%;
-  background-color: black;
+  background-color: #071336;
   color: white;
   padding: 2rem;
   display: flex;
@@ -299,4 +302,26 @@ header .git-links .github {
   padding: 0 1.5rem;
   display: flex;
   margin-top: 2rem;
+}
+.contact-card .card-body .contactone .contactone {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.contact-card .card-body .contactone .contactone h5 {
+  margin-left: 2px;
+}
+.contact-card .card-footer {
+  background-color: #071336;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.contact-card .card-footer a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: #ea580c;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */

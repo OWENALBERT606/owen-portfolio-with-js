@@ -1,10 +1,13 @@
 .contact-card{
+    left: 25rem;
     width: 30%;
     background-color:$secondary-dark-color;
     // padding: 2rem;
+    position: absolute;
+
     .card-header{
         width: 100%;
-        background-color: $black-color;
+        background-color: $primary-color-dark;
         color: $white-color;
         padding: 2rem;
         display: flex;
@@ -17,7 +20,30 @@
             padding: 0 1.5rem;
             display: flex;
             margin-top: 2rem;
+            .contactone{
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+                h5{
+                    margin-left: 2px;
+                }
+            }
             
+        }
+    }
+    .card-footer{
+        background-color: $primary-color-dark;
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            padding: 1rem 2rem;
+            background-color: $secondary-dark-color;
+            // color: $white-color;
+            color: $white-color;
+            border: none;
+            border-radius: 5px;
         }
     }
 
