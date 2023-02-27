@@ -277,4 +277,26 @@ header .git-links .github {
 }
 .services-sec .btm-services .service-one h2 {
   text-align: center;
+}
+
+.contact-card {
+  width: 30%;
+  background-color: #ea580c;
+}
+.contact-card .card-header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-card .card-body {
+  padding: 2rem;
+}
+.contact-card .card-body .contactone {
+  padding: 0 1.5rem;
+  display: flex;
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
