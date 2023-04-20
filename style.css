@@ -326,6 +326,25 @@ header .git-links .github {
   border-radius: 5px;
 }
 
+.footer .top-footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  color: white;
+  background-color: black;
+}
+.footer .top-footer .card {
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footer .top-footer .card a {
+  color: #071336;
+}
+.footer .top-footer .card a:hover {
+  color: #ea580c;
+}
 .footer .bottom-footer {
   display: flex;
   justify-content: center;
