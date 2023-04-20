@@ -1,0 +1,18 @@
+.footer{
+    .bottom-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-decoration: none;
+        background-color: $black-color;
+        color: $white-color;
+        padding: 1rem;
+        border-top: 2px solid $secondary-dark-color;
+        h2{
+            a{
+                color: $secondary-dark-color;
+            }
+        }
+    }
+}

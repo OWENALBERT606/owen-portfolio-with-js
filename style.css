@@ -324,4 +324,19 @@ header .git-links .github {
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+.footer .bottom-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-top: 2px solid #ea580c;
+}
+.footer .bottom-footer h2 a {
+  color: #ea580c;
 }/*# sourceMappingURL=style.css.map */
