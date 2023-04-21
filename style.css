@@ -550,10 +550,29 @@ header .git-links .github {
   gap: 0.5rem;
 }
 .footer .top-footer .card a {
-  color: #071336;
+  transition: 0.5s ease;
 }
 .footer .top-footer .card a:hover {
   color: #ea580c;
+}
+.footer .top-footer .card input {
+  border: none;
+}
+.footer .top-footer .card .email {
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.footer .top-footer .card .btn-send {
+  color: white;
+  background-color: #ea580c;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+.footer .top-footer .card .btn-send:hover {
+  color: #ea580c;
+  background-color: white;
 }
 .footer .bottom-footer {
   display: flex;

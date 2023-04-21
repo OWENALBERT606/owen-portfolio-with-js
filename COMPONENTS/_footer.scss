@@ -8,6 +8,15 @@
         color: $white-color;
         background-color: $black-color;
         .card{
+            a{
+                transition: .5s ease;
+                &:hover{
+                    color: $secondary-dark-color;
+                } 
+            }
+            input{
+                border: none;
+            }
             // border-left: 2px solid $secondary-dark-color;
             align-items: center;
             // justify-content: center;
@@ -15,10 +24,21 @@
             display: flex;
             flex-direction: column;
             gap: .5rem;
-            a{
-                color: $primary-color-dark;
+            .email{
+                padding: 1rem;
+                border-radius: 5px;
+                margin-top: 2rem;
+            }
+            .btn-send{
+                color: $white-color;
+                background-color: $secondary-dark-color;
+                padding: 1rem;
+                border-radius: 5px;
+                margin-top: 2rem;
+                
                 &:hover{
                     color: $secondary-dark-color;
+                    background-color:$white-color;
                 }
             }
         }
