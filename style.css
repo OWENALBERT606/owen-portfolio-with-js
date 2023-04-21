@@ -447,6 +447,95 @@ header .git-links .github {
   text-align: center;
 }
 
+.skills-sec {
+  width: 100%;
+  background-color: #071336;
+}
+.skills-sec .top-skills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #ea580c;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0 0 0;
+}
+@media (max-width: 480px) {
+  .skills-sec .top-skills {
+    padding: 1rem;
+  }
+}
+.skills-sec .btm-skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  background-color: #071336;
+}
+@media (max-width: 480px) {
+  .skills-sec .btm-skills {
+    background-color: #071336;
+  }
+}
+.skills-sec .btm-skills .skill-one {
+  height: 30rem;
+  background-image: url("../assets/photos/html css.png");
+  background-color: #fb923c;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0.2rem;
+  margin: 2rem 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.skills-sec .btm-skills .skill-one h2 {
+  text-align: center;
+}
+.skills-sec .btm-skills .skill-one-two {
+  height: 30rem;
+  background-image: url("../assets/photos/javascript.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #fb923c;
+  border-radius: 0.2rem;
+  margin: 2rem 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.skills-sec .btm-skills .skill-one-two h2 {
+  text-align: center;
+}
+.skills-sec .btm-skills .skill-one-three {
+  height: 30rem;
+  background-image: url("../assets/photos/php mysql.jpg.png");
+  background-position: center;
+  background-color: #fb923c;
+  background-blend-mode: multiply;
+  background-size: cover;
+  border-radius: 0.2rem;
+  margin: 2rem 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+}
+.skills-sec .btm-skills .skill-one-three h2 {
+  text-align: center;
+}
+
 .footer .top-footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));

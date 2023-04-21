@@ -1,0 +1,111 @@
+.skills-sec{
+    width: 100%;
+    background-color:$primary-color-dark;
+    .top-skills{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        color: $secondary-dark-color;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 1rem 0 0 0;
+        @media (max-width:480px){
+            padding: 1rem;
+        }
+    }
+    .btm-skills{
+        display: grid;
+        // gap: .5rem;
+        grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+        background-color:$primary-color-dark;
+        // width: 100%;display: flex;
+        // justify-content: center;
+        // align-items: center;
+        @media (max-width:480px){
+            background-color: $primary-color-dark;
+        }
+
+        .skill-one{
+            // width: 30%;
+            height: 30rem;
+            background-image:url("../assets/photos/html\ css.png");
+            background-color: $light-sec-color;
+            background-blend-mode: multiply;
+            background-position: center;
+            background-size: cover;
+            border-radius: .2rem;
+            margin: 2rem 2rem;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            color: white;
+            @media (max-width:480px){
+                // width:100%;
+
+            }
+            h2{
+                text-align: center;
+                // margin: 1rem;
+                
+            }
+        }
+        .skill-one-two{
+            // width: 30%;
+            height: 30rem;
+            background-image:url("../assets/photos/javascript.png");
+            background-position: center;
+            background-size: cover;
+            background-color: $light-sec-color;
+            // background-blend-mode: multiply;
+            border-radius: .2rem;
+            margin: 2rem 2rem;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            color: white;
+            @media (max-width:480px){
+                // width:100%;
+
+            }
+            h2{
+                text-align: center;
+                // margin: 1rem;
+                
+            }
+        }
+        .skill-one-three{
+            // width: 30%;
+            height: 30rem;
+            background-image:url("../assets/photos/php\ mysql.jpg.png");
+            background-position: center;
+            background-color: $light-sec-color;
+            background-blend-mode: multiply;
+            background-size: cover;
+            border-radius: .2rem;
+            margin: 2rem 2rem;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            color: white;
+            @media (max-width:480px){
+                // width:100%;
+
+            }
+            h2{
+                text-align: center;
+                // margin: 1rem;
+                
+            }
+        }
+    }
+}
