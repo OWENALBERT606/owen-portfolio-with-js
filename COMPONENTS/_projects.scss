@@ -1,0 +1,141 @@
+.projects-sec{
+    width: 100%;
+    background-color:$black-color;
+    .top-services{
+        width: 100%;
+        color: $white-color;
+        text-align: center;
+        margin: 0;
+        padding: 1rem 0 0 0;
+        @media (max-width:480px){
+            padding: 1rem;
+        }
+    }
+    .btm-projects{
+        display: grid;
+        // gap: .5rem;
+        grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+        background-color:rgb(0, 0, 0);
+        // width: 100%;display: flex;
+        // justify-content: center;
+        // align-items: center;
+        @media (max-width:480px){
+            background-color: $primary-color-dark;
+        }
+
+        .project-one{
+            // width: 30%;
+            height: 30rem;
+            background-image:linear-gradient(rgba(7, 11, 81, 0.403),rgba(237, 138, 9, 0.595)) ,url("../assets/photos/holy.JPG");
+            background-position: center;
+            background-size: cover;
+            border-radius: .2rem;
+            margin: 2rem 2rem;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            color: white;
+            a{
+                text-decoration: none;
+                color: $white-color;
+                background-color:$secondary-dark-color;
+                border-radius: 5px;
+                padding: 1rem;
+                margin-top: 2rem;
+                &:hover{
+                    background-color:$white-color;
+                    color: $secondary-dark-color;
+                }
+            }
+            @media (max-width:480px){
+                // width:100%;
+
+            }
+            h2{
+                text-align: center;
+                // margin: 1rem;
+                
+            }
+        }
+        .project-one-two{
+            // width: 30%;
+            height: 30rem;
+            background-image:linear-gradient(rgba(7, 11, 81, 0.403),rgba(237, 138, 9, 0.595)) ,url("../assets/photos/bee.JPG");
+            background-position: center;
+            background-size: cover;
+            border-radius: .2rem;
+            margin: 2rem 2rem;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            color: white;
+            a{
+                transition: .5s ease;
+                text-decoration: none;
+                color: $white-color;
+                background-color:$secondary-dark-color;
+                border-radius: 5px;
+                padding: 1rem;
+                margin-top: 2rem;
+                &:hover{
+                    transition: .5s ease;
+                    background-color:$white-color;
+                    color: $secondary-dark-color;
+                }
+            }
+            @media (max-width:480px){
+                // width:100%;
+
+            }
+            h2{
+                text-align: center;
+                // margin: 1rem;
+                
+            }
+        }
+        .project-one-three{
+            // width: 30%;
+            height: 30rem;
+            background-image:linear-gradient(rgba(7, 11, 81, 0.403),rgba(237, 138, 9, 0.595)) ,url("../assets/photos/modern.JPG");
+            background-position: center;
+            background-size: cover;
+            border-radius: .2rem;
+            margin: 2rem 2rem;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            color: white;
+            a{
+                text-decoration: none;
+                color: $white-color;
+                background-color:$secondary-dark-color;
+                border-radius: 5px;
+                padding: 1rem;
+                margin-top: 2rem;
+                transition: .5s ease;
+                &:hover{
+                    background-color:$white-color;
+                    color: $secondary-dark-color;
+                }
+            }
+            @media (max-width:480px){
+                // width:100%;
+
+            }
+            h2{
+                text-align: center;
+                // margin: 1rem;
+                
+            }
+        }
+    }
+}
