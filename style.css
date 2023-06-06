@@ -383,6 +383,12 @@ header .git-links .github {
 .projects-sec .btm-projects .project-one h2 {
   text-align: center;
 }
+.projects-sec .btm-projects .project-one .animate-on-scroll {
+  opacity: 0;
+  transform: translate(-300px, 0);
+  transition: all 0.4s ease-out;
+  transition-delay: 0.2s;
+}
 .projects-sec .btm-projects .project-one-two {
   height: 30rem;
   background-image: linear-gradient(rgba(7, 11, 81, 0.403), rgba(237, 138, 9, 0.595)), url("../assets/photos/bee.JPG");
@@ -587,4 +593,9 @@ header .git-links .github {
 }
 .footer .bottom-footer h2 a {
   color: #ea580c;
+}
+
+.animate {
+  opacity: 1;
+  transform: translate(0, 0);
 }/*# sourceMappingURL=style.css.map */
